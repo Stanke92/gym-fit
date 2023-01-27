@@ -53,12 +53,23 @@
 }
 .hero h1 {
   color: #fff;
-  font-size: 48px;
+  font-size: 36px;
+  margin: 0 0 15px;
+}
+@media only screen and (min-width : 768px) {
+  .hero h1 {
+    font-size: 48px;
+  }
 }
 .hero p {
   color: #fff;
-  font-size: 32px;
-  margin: 0 0 30px;
+  font-size: 22px;
+  margin: 0 0 50px;
+}
+@media only screen and (min-width : 768px) {
+  .hero p {
+    font-size: 32px;
+  }
 }
 .hero span {
   display: flex;
@@ -68,12 +79,18 @@
 .hero .toggle {
   display: inline-block;
   position: relative;
-  width: 60px;
-  height: 40px;
+  width: 45px;
+  height: 30px;
   border-radius: 100px;
   background-color: #ddd;
   overflow: hidden;
   box-shadow: inset 0 0 2px 1px rgba(0, 0, 0, 0.05);
+}
+@media only screen and (min-width : 768px) {
+  .hero .toggle {
+    width: 60px;
+    height: 40px;
+  }
 }
 .hero .check {
   position: absolute;
@@ -123,7 +140,8 @@
 .hero .social {
   text-decoration: none;
   position: absolute;
-  right: 5%;
+  left: 50%;
+  transform: translate(-50%);
   bottom: 5%;
   z-index: 9;
   color: #fff;
@@ -131,6 +149,14 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+@media only screen and (min-width : 768px) {
+  .hero .social {
+    right: 5%;
+    bottom: 5%;
+    left: auto;
+    transform: translateX(0);
+  }
 }
 .hero .social .insta {
   width: 30px;

@@ -17,7 +17,7 @@ function Hero() {
                         Po vasoj meri
                     </p>
                     <div class="toggle">
-                        <input type="checkbox" class="check disabled"  ></input>
+                        <input type="checkbox" class="check" disabled checked></input>
                         <b class="b switch"></b>
                         <b class="b track"></b>
                     </div>
@@ -27,7 +27,7 @@ function Hero() {
                         Na Vasem Telefonu
                     </p>
                     <div class="toggle">
-                        <input type="checkbox" class="check disabled"  ></input>
+                        <input type="checkbox" class="check" disabled checked></input>
                         <b class="b switch"></b>
                         <b class="b track"></b>
                     </div>
@@ -37,7 +37,7 @@ function Hero() {
                         Bilo gde, bilo kad
                     </p>
                     <div class="toggle">
-                        <input type="checkbox" class="check disabled"  ></input>
+                        <input type="checkbox" class="check" disabled checked></input>
                         <b class="b switch"></b>
                         <b class="b track"></b>
                     </div>
@@ -47,7 +47,7 @@ function Hero() {
                         Podrska
                     </p>
                     <div class="toggle">
-                        <input type="checkbox" class="check disabled"  ></input>
+                        <input type="checkbox" class="check" disabled checked></input>
                         <b class="b switch"></b>
                         <b class="b track"></b>
                     </div>
